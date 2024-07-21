@@ -1,6 +1,6 @@
 # telescope-mantoc
 
-## instalation
+## installation
 ### [folke/lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
   {
@@ -19,7 +19,7 @@ require('telescope').load_extension('mantoc')
 :Telescope mantoc
 ```
 
-### maps
+maps
 
 ``` lua
 vim.keymap.set('n', '<leader>m', ':Telescope mantoc')
